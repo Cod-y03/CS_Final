@@ -26,13 +26,35 @@ p {
      outline: none;
      margin-left: 20%;
 }
-
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  width: 20px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #8E8D8A;
+}
+w {
+    text-align: left;
+    font-family: "Times New Roman, helvetica, arial";
+    font-size: 20px;
+    margin-left: 20em;
+    color: #8E8D8A;
+}
 img {
+    display: block;
+    float: left;
+    margin: 0 100 1em 1em;
+    /* margin: 0 0 100% 10%; */
+    border: #E85A4F;
+    border-style: groove;
+    border-width: 10px;
+
+}
+
+.text {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: #E85A4F;
     border-style: groove;
     border-width: 10px;
-
 }
